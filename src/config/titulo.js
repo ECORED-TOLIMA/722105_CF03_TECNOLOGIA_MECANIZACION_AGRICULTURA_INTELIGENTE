@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Costos de operación de actividades agrícolas mecanizadas'
