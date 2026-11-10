@@ -75,6 +75,9 @@ figcaption
   background-repeat: no-repeat
   background-position: center
   background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 .BGF02
   background-image: url("../assets/curso/temas/bg/imgfondo2.png")
@@ -86,6 +89,14 @@ figcaption
   background-repeat: no-repeat
   background-position: center
   background-size: cover
+.BGF04
+  background-image: url("../assets/curso/temas/bg/imgfondo4.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 .BGTARG
   background-image: url("../assets/curso/temas/bg/imgtarjeta.png")
@@ -175,7 +186,7 @@ figcaption
 .tema2-fondosly
   background-color: #EEFFDB
 .tema2-nota
-  background-color: $color-primario
+  background-color: #C2F6A0
 
 .tema2-bloque-planeacion
   background-color: $color-adicional-2
@@ -187,7 +198,54 @@ figcaption
   background-color: $color-adicional-2
 
   .bloque-texto-g__img
-    background-image: url('../assets/curso/temas/t2/img5.png')
+    background-image: url('../assets/curso/temas/t2/img5.svg')
+
+.tema2-bloque-clasificacion
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t2/img6.png')
+
+.tema2-slyder
+  background-color: #FFE8CE
+
+.tema2-costeo-conectado
+  overflow: hidden
+  border-radius: 1rem
+
+  &__tarjeta
+    height: 100%
+
+    &--absorbente
+      background-color: #C2F6A0
+
+    &--variable
+      background-color: #E9D2A3
+
+  &__imagen
+    display: block
+    width: 250px
+    max-width: 70%
+    margin: 0 auto
+
+.tema2-bloque-decisiones
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t2/img17.png')
+
+.tema2-concepto
+  height: 100%
+  border-radius: 20px 20px 0px 0px
+  overflow: hidden
+  background-color: #FFB642
+
+  &__imagen
+    display: block
+    width: 100%
+
+.tema2-ejemplo-decision
+  background-color: #EEFFDB
 
 .tema2-formula-titulo,
 .tema2-factor-titulo
@@ -313,7 +371,6 @@ figcaption
       height: auto
 
 .tema2-calculo
-  border-radius: .65rem
   background-color: $white
   box-shadow: 0 .2rem .45rem rgba($black, .16)
 
@@ -358,6 +415,12 @@ figcaption
   &__destacado
     background-color: #C2F6A0
 
+.tema3-bloque-fuentes
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t3/img2.png')
+
 .tema3-seccion-imagen
   display: block
   width: 100%
@@ -379,6 +442,55 @@ figcaption
   width: 84px
   max-width: 100%
   margin: 0 auto
+
+.tema3-nota
+  background-color: #C2F6A0
+
+.tema3-inventario-imagen
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.tema3-formula-titulo
+  border-radius: 2rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema3-calculo
+
+  background-color: $white
+  box-shadow: 0 .2rem .45rem rgba($black, .16)
+
+  &__operacion
+    font-size: $h5-font-size
+
+.tema3-ejemplo-inventario
+  background-color: #EEFFDB
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.tema3-depreciacion-apertura
+  background-color: #C2F6A0
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.tema3-ejemplo-depreciacion
+  background-color: #EEFFDB
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
 
 .tema3-tipo-presupuesto
   &--operacion
@@ -428,8 +540,6 @@ figcaption
   th:first-child,
   td:first-child
     text-align: center
-
-  tbody
 
 .tema3-slyder
   padding: 2rem
@@ -499,7 +609,7 @@ figcaption
     max-width: 100%
 
 // Tema 4
-.tema4-bloque-sst
+.tema4-bloque-apertura
   background-color: $color-adicional-2
 
   .bloque-texto-g__img
@@ -547,11 +657,56 @@ figcaption
 .tema4-nota
   background-color: #C2F6A0
 
+.tema4-mano-obra
+  background-color: #C2F6A0
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.tema4-formula
+  border-radius: 1.5rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema4-calculo
+  background-color: $white
+  box-shadow: 0 .2rem .45rem rgba($black, .16)
+  text-align: center
+
+  &__operacion
+    font-size: $h5-font-size
+    overflow-wrap: anywhere
+
+.tema4-ejemplo
+  background-color: #F8EDD3
+
+  &--verde
+    background-color: #EEFFDB
+
+  &__titulo
+    background-color: #FEB241
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.tema4-lista
+  .fa-seedling
+    color: #FEB241
+
 .tema4-panel
   &__imagen
     width: 100%
     height: 100%
     object-fit: cover
+
+.tema4-tabs
+  background-color: #F8EDD3
 
 .tema4-tabla
   thead
@@ -648,6 +803,37 @@ figcaption
 .tema5-nota
   background-color: #C2F6A0
 
+.tema5-calculo
+  border-radius: .35rem
+  background-color: $white
+  box-shadow: 0 .2rem .45rem rgba($black, .16)
+  text-align: center
+
+.tema5-conectadas
+  overflow: hidden
+  border-radius: 1rem
+
+  &__tarjeta
+    height: 100%
+
+    &--verde
+      background-color: #C2F6A0
+
+    &--beige
+      background-color: #F8EDD3
+
+    &--naranja
+      background-color: #FFC96D
+
+    &--salmon
+      background-color: #FFA394
+
+  &__imagen
+    display: block
+    width: 80px
+    max-width: 100%
+    margin: 0 auto
+
 .tema5-pastilla
   border-radius: 2rem
   background-color: #FFC96D
@@ -676,6 +862,62 @@ figcaption
 .bg01
   background-color: #EEFFDB
 
+// Tema 6
+.tema6-bloque-apertura
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t6/img1.png')
+
+.tema6-bloque-informes
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t6/img21.png')
+
+.tema6-indicador
+  &__icono
+    display: block
+    width: 150px
+    max-width: 100%
+    margin: 0 auto
+
+  &__contenido
+    border-radius: 1.5rem
+    background-color: #F8EDD3
+
+  &__formula
+    background-color: $white
+    box-shadow: 0 .2rem .45rem rgba($black, .16)
+    text-align: center
+
+    h4
+      font-size: $h5-font-size
+      overflow-wrap: anywhere
+
+.tema6-pastilla
+  border-radius: 2rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema6-ejemplo
+  background-color: #EEFFDB
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__datos
+    border-radius: .75rem
+    background-color: $white
+    box-shadow: 0 .2rem .45rem rgba($black, .16)
+
+.tema6-lista
+  .fa-seedling
+    color: #FEB241
+
 /**************************************************************/
 /*Media Queries*/
 /**************************************************************/
@@ -696,6 +938,8 @@ figcaption
   background-color: #F8EDD3
 .tarjeta--gris, .tarjeta--azul
   background-color: #e5efe4
+.tarjeta--azul
+  background-color: #E8D5D5
 .linea-tiempo-d__item__number
   background-color: #E8D5D5
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
@@ -705,10 +949,10 @@ figcaption
   color: #fff
 
 .acordion__activo
-  background-color: #CCE0D4
+  background-color: #F8EDD3
 .acordion__accion__btn--b
-  border: 1px solid #00642B
-  background-color: #00642B
+  border: 1px solid #982C03
+  background-color: #982C03
   color: white !important
 
 .lista-ol--cuadro__vineta
@@ -757,15 +1001,25 @@ figcaption
 .pasos-a.color-primario .pasos-a__circle div
   color: #000
 
-.acordion__activo
-  background-color: #E1F2FE
-
 .acordion__accion__btn--a
   background-color: #982C03
   color: #FFF !important
 
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   color: #12263F !important
+
+//- tabs
+.tabs-c__tab
+  background-color: #E8D5D5
+  color: $black
+.tabs-c__tab--active
+  background-color: #fff
+  color: black
+  font-weight: bold
+.tabs-c
+  background-color: #F8EDD3
+  border: none
+
 ///////// Card hover x 3 tarjetas--------------------------------------
 .crd_hover_txt
   position: relative

@@ -59,7 +59,7 @@
             td Permite prever reparaciones, demoras y variaciones de precios.
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema1-icono(
           src="@/assets/curso/temas/t1/img3.svg"
           alt=""
@@ -72,7 +72,7 @@
       h2 1.2 Producción y prestación de servicios mecanizados
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-md-5.col-lg-4.mb-4.mb-md-0
+      .col-8.col-lg-4.mb-4.mb-md-0
         img.w-100.h-100.object-fit-cover(
           src="@/assets/curso/temas/t1/img4.png"
           alt=""
@@ -115,7 +115,7 @@
       .row.justify-content-center.align-items-center
         .col-md
           p.mb-0 Además de las formas de organizar la producción, los servicios de mecanización se prestan mediante diferentes modalidades, según la propiedad de los equipos, la organización empresarial y el tipo de cliente atendido. Entre las más frecuentes se encuentran los contratistas independientes, los bancos de maquinaria, las empresas agroindustriales con flota propia y las organizaciones que combinan el uso de maquinaria para sus cultivos con la prestación de servicios a terceros.
-        .col-auto.order-first.order-md-last.mb-4.mb-md-0
+        .col-auto.order-first.order-md-last.mb-4.mb-md-0.d-none.d-lg-block
           img.tema1-icono(
             src="@/assets/curso/temas/t1/img5.svg"
             alt=""
@@ -162,7 +162,7 @@
         .col-lg-7.p-4
           p.mb-4 Los bienes son elementos tangibles que pueden utilizarse o consumirse en la producción. Algunos son bienes de consumo, como el combustible y los lubricantes; otros son bienes de capital, como tractores, sembradoras, cosechadoras, talleres y bodegas. Los servicios, por su parte, son actividades que satisfacen una necesidad sin transferir la propiedad de un bien, como la preparación mecanizada del suelo.
           .row.align-items-center
-            .col-auto.mb-4.mb-md-0
+            .col-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema1-icono(
                 src="@/assets/curso/temas/t1/img6.svg"
                 alt=""
