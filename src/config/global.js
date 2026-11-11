@@ -437,7 +437,7 @@ export default {
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -447,7 +447,7 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
