@@ -293,7 +293,7 @@
           )
           .p-4
             h5 Costo de oportunidad:
-            p.mb-0 representa el beneficio que se deja de obtener al elegir una alternativa en lugar de otra. Por ejemplo, cuando un tractor se destina a un contrato, puede dejar de atender otro servicio que generaría mayores ingresos.
+            p.mb-0 Representa el beneficio que se deja de obtener al elegir una alternativa en lugar de otra. Por ejemplo, cuando un tractor se destina a un contrato, puede dejar de atender otro servicio que generaría mayores ingresos.
       .col-md-6
         .tema2-concepto
           img.tema2-concepto__imagen(
@@ -302,7 +302,7 @@
           )
           .p-4
             h5 Costo incremental:
-            p.mb-0 corresponde al costo adicional que se genera al aumentar la producción o realizar una actividad adicional. En una labor de rastrillada, puede incluir el combustible, los lubricantes y la mano de obra necesarios para atender hectáreas adicionales.
+            p.mb-0 Corresponde al costo adicional que se genera al aumentar la producción o realizar una actividad adicional. En una labor de rastrillada, puede incluir el combustible, los lubricantes y la mano de obra necesarios para atender hectáreas adicionales.
 
     .tema2-ejemplo-decision.p-4.mb-4
       p.mb-4
