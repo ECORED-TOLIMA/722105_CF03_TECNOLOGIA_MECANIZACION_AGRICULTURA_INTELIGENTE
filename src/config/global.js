@@ -279,11 +279,6 @@ export default {
   },
   glosario: [
     {
-      termino: 'Centro de costos',
-      significado:
-        'Unidad, equipo, labor o área de la empresa a la que se asignan costos para facilitar su control y análisis por separado.',
-    },
-    {
       termino: 'Costo',
       significado:
         'Valor monetario de los recursos utilizados para producir un bien o prestar un servicio.',
@@ -357,8 +352,8 @@ export default {
   referencias: [
     {
       referencia:
-        'American Society of Agricultural and Biological Engineers. (2025). Agricultural machinery management data (ASAE D497.7, reaffirmed 2025). ASABE.',
-      link: 'https://elibrary.asabe.org/abstract.asp?aid=36431&redir&redirType&t=2&utm',
+        'American Society of Agricultural and Biological Engineers. (2025). Agricultural machinery management data (ASAE D497.7).',
+      link: 'https://elibrary.asabe.org/abstract.asp?aid=36431',
     },
     {
       referencia: 'Congreso de Colombia. (2009). Ley 1314 de 2009.',
@@ -372,7 +367,7 @@ export default {
     {
       referencia:
         'Johnson, J. (2023). Farm machinery cost calculations (Publication 3543). Mississippi State University Extension Service.',
-      link: 'https://accessibility.extension.msstate.edu/publications/farm-machinery-cost-calculations?utm',
+      link: 'https://accessibility.extension.msstate.edu/publications/farm-machinery-cost-calculations',
     },
     {
       referencia:
